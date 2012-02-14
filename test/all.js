@@ -8,7 +8,7 @@ function Muffin(numberOfBites) {
   this._numberOfBites = numberOfBites;
 };
 
-Muffin.prototype = { 
+Muffin.prototype = {
   get numberOfBites() {
     return this._numberOfBites;
   }
@@ -198,9 +198,11 @@ var testCases = [
   ["{array[0][1]}",
     [{array : [["one", ["two"]]]}, "two"]],
   ["{array['text prop']}",
-    [{array : {"text prop" : "two"}}, "two"]]
-  /*["{array[obj.prop[1]]}", //todo currently nested array brackets not supported by the parser
-    [{array : ["one", "two"], obj : {"prop" : [1, 0]}}, "two"]]*/
+    [{array : {"text prop" : "two"}}, "two"]],
+  ["{f(array[0])}",
+    [{"array" : ["one"], "f" : function(val, cb) {cb(val)}}, "one"]]
+  //["{array[obj.prop[1]]}", //todo currently nested array brackets not supported by the parser
+  //[{array : ["one", "two"], obj : {"prop" : [1, 0]}}, "two"]]
 ];
 
 testCases.forEach(function(testCase) {
