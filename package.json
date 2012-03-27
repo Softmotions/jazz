@@ -1,5 +1,5 @@
 {
-  "name": "jazz",
+  "name": "softmotions-jazz",
   "description": "A simple template engine built specifically for nodejs.",
   "version": "0.0.15",
   "author": "Thomas Lee <thomas.lee@shinetech.com>",
