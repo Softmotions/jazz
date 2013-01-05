@@ -1,8 +1,8 @@
 {
   "name": "softmotions-jazz",
-  "description": "A simple template engine built specifically for nodejs.",
+  "description": "A simple template engine built specifically for nodejs (forked from shinetech/jazz)",
   "version": "0.0.16",
-  "author": "Thomas Lee <thomas.lee@shinetech.com>",
+  "author": "Anton Adamansky <adamansky@gmail.com>",
   "keywords": ["template", "engine"],
   "main": "./lib/jazz.js",
   "directories": { "lib": "./lib/jazz" },
