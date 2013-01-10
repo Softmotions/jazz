@@ -1,7 +1,7 @@
 {
   "name": "softmotions-jazz",
   "description": "A simple template engine built specifically for nodejs (forked from shinetech/jazz)",
-  "version": "0.0.17",
+  "version": "0.0.18",
   "keywords": ["template", "engine", "jazz", "express"],
   "author" : {
         "name" : "Anton Adamansky",
