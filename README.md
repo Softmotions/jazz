@@ -1,4 +1,4 @@
-Jazz is a simple template engine built specifically for nodejs.
+Jazz is a simple template engine built specifically for nodejs (forked from shinetech/jazz).
 
 # Usage
 
